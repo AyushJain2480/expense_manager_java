@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@android:color/background_dark"
+    app:cardElevation="10dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_margin="10dp"
+      android:padding="10dp"
+      android:background="@drawable/rrrr"
+      android:layout_height="140dp"
+      android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Type:"
+          android:textColor="@android:color/white"
+          android:id="@+id/type_Income"
+          android:textAppearance="?android:textAppearanceLarge"
+          android:gravity="center"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:padding="5dp"
+          android:text="Ammount:"
+          android:textColor="@android:color/white"
+          android:layout_marginTop="10dp"
+          android:textAppearance="?android:textAppearanceMedium"
+          android:id="@+id/ammount_income_ds"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="10 June 2018"
+          android:padding="5dp"
+          android:textAppearance="?android:textAppearanceMedium"
+          android:gravity="center"
+          android:id="@+id/date_income_ds"
+          android:textColor="@android:color/white"
+          android:layout_marginTop="10dp"/>
+
+
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>

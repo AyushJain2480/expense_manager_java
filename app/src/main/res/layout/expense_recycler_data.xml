@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:backgroundTint="@color/blueishs"
+    android:elevation="5dp"
+    app:cardElevation="5dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bluebackground"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6 June 2010"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="bold"
+                android:id="@+id/date_txt_expense"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="bold"
+                android:id="@+id/type_txt_expense"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="bold"
+                android:layout_below="@+id/type_txt_expense"
+                android:id="@+id/note_txt_expense"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="60000"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/ammount_txt_expense"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
