@@ -5,3 +5,4 @@ Who doesn’t have a goal for the new year that involves money? Many of us have 
 ![login screen](https://raw.githubusercontent.com/AyushJain2480/expense_manager_java/main/images/Screenshot_2022-01-03-21-06-47-128_com.example.expensemanager.jpg?token=AXCXVOPUSXILQRLYGV76WATB2YKL2)
 ![dashboard screen](https://raw.githubusercontent.com/AyushJain2480/expense_manager_java/main/images/Screenshot_2022-01-03-21-07-01-797_com.example.expensemanager.jpg?token=AXCXVOKYLFGYAQCXOG3IMY3B2YKVC)
 ![Home Screen](https://raw.githubusercontent.com/AyushJain2480/expense_manager_java/main/images/Screenshot_2022-01-03-21-07-05-059_com.example.expensemanager.jpg?token=AXCXVOKU7CA5ILFQOFOVUCLB2YK54)
+![dialog Screen](https://raw.githubusercontent.com/AyushJain2480/expense_manager_java/main/images/Screenshot_2022-01-03-21-07-08-368_com.example.expensemanager.jpg?token=AXCXVOK4VCDPO4QMQ3WOIR3B2YLGS)
