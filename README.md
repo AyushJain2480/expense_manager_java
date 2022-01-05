@@ -1,4 +1,4 @@
-##EXPENSE MANAGER
+
 
 Manage your expenses using your Android smartphone. Keep track of your expenses as you go.
 
